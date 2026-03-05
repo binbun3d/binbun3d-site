@@ -1,0 +1,15 @@
+@font-face {
+    font-family: dm-sans;
+    src: url('/fonts/DMSans.ttf');
+}
+
+html {
+  font-family: dm-sans;
+}
+
+article.article-link--card {
+  border-width: 3px;
+}
+article.article-link--card#hover {
+  border-width: 8px;
+}

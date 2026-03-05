@@ -3,6 +3,7 @@ date = '2026-03-05T14:48:47+02:00'
 draft = true
 title = 'Godot 2D Blur Shader | Tutorial'
 tags = ["godot", "shader", "tutorial"]
+summary = "A simple and performant blur shader for Godot 4"
 +++
 This is a tutorial about a very simple and very performant blur shader for **Godot 4**. If you just want the shader skip [here](#full-shader).
 > [!NOTE] I used this method in my [Free Glass UI Shader](https://binbun3d.itch.io/fluid-glass-ui)

@@ -13,12 +13,12 @@
     
     <item>
       <title>Godot 2D Blur Shader | Tutorial</title>
-      <link>//localhost:1313/tutorials/godot_blur_shader/</link>
+      <link>//localhost:1313/tutorials/misc/godot_blur_shader/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tutorials/godot_blur_shader/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tutorials/godot_blur_shader/feature.png" />
+      <guid>//localhost:1313/tutorials/misc/godot_blur_shader/</guid>
+      <description>A simple and performant blur shader for Godot 4</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tutorials/misc/godot_blur_shader/feature.png" />
     </item>
     
   </channel>
