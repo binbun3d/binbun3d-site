@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials on Binbun3D</title>
-    <link>//localhost:1313/tutorials/</link>
-    <description>Recent content in Tutorials on Binbun3D</description>
+    <title>Miscellaneous Tutorials on Binbun3D</title>
+    <link>//localhost:1313/tutorials/misc/</link>
+    <description>Recent content in Miscellaneous Tutorials on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="//localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="//localhost:1313/tutorials/misc/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Godot 2D Blur Shader | Tutorial</title>
