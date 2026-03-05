@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Binbun3D</title>
+    <link>//localhost:1313/guides/</link>
+    <description>Recent content in Tutorials on Binbun3D</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
+    <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
+    <copyright>© 2026 Binbun3D</copyright>
+    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="//localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Godot_blur_shader</title>
+      <link>//localhost:1313/guides/godot_blur_shader/godot_blur_shader/</link>
+      <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
+      <author>bin@bun3d.com (Binbun3D)</author>
+      <guid>//localhost:1313/guides/godot_blur_shader/godot_blur_shader/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

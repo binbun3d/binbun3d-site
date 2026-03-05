@@ -1,0 +1,52 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Binbun3D"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+ [params.author]
+   name = "Binbun3D"
+   email = "bin@bun3d.com"
+#   image = "img/blowfish_logo.png"
+#   imageQuality = 96
+#   headline = "I'm only human"
+#   bio = "A little bit about you"
+   links = [
+     { itch-io = "https://binbun3d.itch.io" },
+#     { email = "mailto:hello@your_domain.com" },
+#     { link = "https://link-to-some-website.com/" },
+#     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+#     { apple = "https://www.apple.com" },
+#     { blogger = "https://username.blogspot.com/" },
+     { bluesky = "https://bsky.app/profile/binbun3d.bsky.social" },
+#     { codepen = "https://codepen.io/username" },
+#     { dev = "https://dev.to/username" },
+#     { discord = "https://discord.gg/invitecode" },
+#     { dribbble = "https://dribbble.com/username" },
+#     { foursquare = "https://foursquare.com/username" },
+#     { github = "https://github.com/username" },
+#     { gitlab = "https://gitlab.com/username" },
+#     { instagram = "https://instagram.com/username" },
+#     { kickstarter = "https://www.kickstarter.com/profile/username" },
+#     { linkedin = "https://linkedin.com/in/username" },
+     { mastodon = "https://mastodon.social/@binbun3d" },
+#     { matrix = "https://matrix.to/#/URI" },
+#     { patreon = "https://www.patreon.com/username" },
+     { reddit = "https://reddit.com/user/binbun3" },
+#     { threads = "https://www.threads.net/@username" },
+#     { tiktok = "https://tiktok.com/@username" },
+#     { tumblr = "https://username.tumblr.com" },
+#     { twitch = "https://twitch.tv/username" },
+#     { youtube = "https://youtube.com/username" },
+#     { ko-fi = "https://ko-fi.com/username" },
+   ]
