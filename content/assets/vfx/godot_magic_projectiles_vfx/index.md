@@ -1,6 +1,6 @@
 +++
 date = '2026-03-06T11:36:01+02:00'
-draft = true
+draft = false
 title = 'Godot Magic Projectiles VFX | Asset Pack'
 tags = ["godot", "vfx", "3D", "asset"]
 summary = "Magic projectile effects for Godot 4"

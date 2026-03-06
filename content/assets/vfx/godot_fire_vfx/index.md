@@ -1,6 +1,6 @@
 +++
 date = '2026-03-06T11:31:29+02:00'
-draft = true
+draft = false
 title = 'Godot Fire VFX | Asset Pack'
 tags = ["godot", "vfx", "3D", "asset"]
 summary = "Fire effects for Godot 4"

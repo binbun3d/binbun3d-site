@@ -1,6 +1,6 @@
 +++
 date = '2026-03-06T10:40:54+02:00'
-draft = true
+draft = false
 title = 'Godot Magic Orbs VFX | Asset Pack'
 tags = ["godot", "vfx", "3D",  "asset"]
 summary = "Magic orb effects for Godot 4"

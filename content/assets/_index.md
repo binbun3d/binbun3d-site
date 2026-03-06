@@ -4,4 +4,4 @@ description: "Assets"
 cascade:
   showReadingTime: false
 ---
-This section contains all my current game assets.
+Some of my Godot VFX Assets

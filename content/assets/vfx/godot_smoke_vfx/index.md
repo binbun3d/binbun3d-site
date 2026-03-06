@@ -1,6 +1,6 @@
 +++
 date = '2026-03-06T11:26:23+02:00'
-draft = true
+draft = false
 title = 'Godot Dynamic Smoke VFX | Asset Pack'
 tags = ["godot", "vfx", "asset"]
 summary = "Dynamic smoke effects for Godot 4"

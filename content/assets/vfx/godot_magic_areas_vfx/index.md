@@ -1,6 +1,6 @@
 +++
 date = '2026-03-06T10:48:48+02:00'
-draft = true
+draft = false
 title = 'Godot Magic Areas VFX | Asset Pack'
 tags = ["godot", "vfx", "3D",  "asset"]
 summary = "Magic area effects for Godot 4"
