@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shader on Binbun3D</title>
-    <link>//localhost:1313/tags/shader/</link>
+    <link>http://localhost:1313/tags/shader/</link>
     <description>Recent content in Shader on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/shader/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/shader/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Godot 2D Blur Shader | Tutorial</title>
-      <link>//localhost:1313/tutorials/misc/godot_blur_shader/</link>
+      <link>http://localhost:1313/tutorials/misc/godot_blur_shader/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tutorials/misc/godot_blur_shader/</guid>
+      <guid>http://localhost:1313/tutorials/misc/godot_blur_shader/</guid>
       <description>A simple and performant blur shader for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tutorials/misc/godot_blur_shader/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/misc/godot_blur_shader/feature.png" />
     </item>
     
   </channel>

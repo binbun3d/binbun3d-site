@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Binbun3D</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Fri, 06 Mar 2026 11:36:01 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 11:36:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>3D</title>
-      <link>//localhost:1313/tags/3d/</link>
+      <link>http://localhost:1313/tags/3d/</link>
       <pubDate>Fri, 06 Mar 2026 11:36:01 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tags/3d/</guid>
+      <guid>http://localhost:1313/tags/3d/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Asset</title>
-      <link>//localhost:1313/tags/asset/</link>
+      <link>http://localhost:1313/tags/asset/</link>
       <pubDate>Fri, 06 Mar 2026 11:36:01 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tags/asset/</guid>
+      <guid>http://localhost:1313/tags/asset/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Godot</title>
-      <link>//localhost:1313/tags/godot/</link>
+      <link>http://localhost:1313/tags/godot/</link>
       <pubDate>Fri, 06 Mar 2026 11:36:01 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tags/godot/</guid>
+      <guid>http://localhost:1313/tags/godot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vfx</title>
-      <link>//localhost:1313/tags/vfx/</link>
+      <link>http://localhost:1313/tags/vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:36:01 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tags/vfx/</guid>
+      <guid>http://localhost:1313/tags/vfx/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Shader</title>
-      <link>//localhost:1313/tags/shader/</link>
+      <link>http://localhost:1313/tags/shader/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tags/shader/</guid>
+      <guid>http://localhost:1313/tags/shader/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>//localhost:1313/tags/tutorial/</link>
+      <link>http://localhost:1313/tags/tutorial/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>//localhost:1313/tags/tutorial/</guid>
+      <guid>http://localhost:1313/tags/tutorial/</guid>
       <description></description>
       
     </item>
