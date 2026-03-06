@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Binbun3D</title>
-    <link>http://bun3d.com/tags/</link>
+    <link>https://bun3d.com/tags/</link>
     <description>Recent content in Tags on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="http://bun3d.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Mar 2026 14:48:47 +0200</lastBuildDate><atom:link href="https://bun3d.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Godot</title>
-      <link>http://bun3d.com/tags/godot/</link>
+      <link>https://bun3d.com/tags/godot/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>http://bun3d.com/tags/godot/</guid>
+      <guid>https://bun3d.com/tags/godot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Shader</title>
-      <link>http://bun3d.com/tags/shader/</link>
+      <link>https://bun3d.com/tags/shader/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>http://bun3d.com/tags/shader/</guid>
+      <guid>https://bun3d.com/tags/shader/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>http://bun3d.com/tags/tutorial/</link>
+      <link>https://bun3d.com/tags/tutorial/</link>
       <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>http://bun3d.com/tags/tutorial/</guid>
+      <guid>https://bun3d.com/tags/tutorial/</guid>
       <description></description>
       
     </item>
