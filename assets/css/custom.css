@@ -13,3 +13,20 @@ article.article-link--card {
 article.article-link--card#hover {
   border-width: 8px;
 }
+
+h1.mb-2 {
+  text-shadow: 0px 2px 16px #000000aa;
+}
+
+
+a[href][role="button"] {
+  background: #0077b3;
+}
+
+p a {
+  color: #00aaff;
+}
+
+p a:hover {
+  color: #00ffff;
+}
