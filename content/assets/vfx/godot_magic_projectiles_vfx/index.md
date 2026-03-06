@@ -6,7 +6,7 @@ tags = ["godot", "vfx", "3D", "asset"]
 summary = "Magic projectile effects for Godot 4"
 heroStyle = "big"
 +++
-{{< button href="https://binbun3d.itch.io/magic-projectiles-vfx/purchase" target="_self" >}}
+{{< button href="https://binbun3d.itch.io/magic-projectiles-vfx" target="_self" >}}
 Get Effects Here
 {{< /button >}}
 

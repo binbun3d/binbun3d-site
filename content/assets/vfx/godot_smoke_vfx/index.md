@@ -6,7 +6,7 @@ tags = ["godot", "vfx", "asset"]
 summary = "Dynamic smoke effects for Godot 4"
 heroStyle = "big"
 +++
-{{< button href="https://binbun3d.itch.io/smoke-vfx/purchase" target="_self" >}}
+{{< button href="https://binbun3d.itch.io/smoke-vfx" target="_self" >}}
 Get Effects Here
 {{< /button >}}
 

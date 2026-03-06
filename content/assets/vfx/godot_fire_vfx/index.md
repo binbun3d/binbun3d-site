@@ -6,7 +6,7 @@ tags = ["godot", "vfx", "3D", "asset"]
 summary = "Fire effects for Godot 4"
 heroStyle = "big"
 +++
-{{< button href="https://binbun3d.itch.io/fire/purchase" target="_self" >}}
+{{< button href="https://binbun3d.itch.io/fire" target="_self" >}}
 Get Effects Here
 {{< /button >}}
 

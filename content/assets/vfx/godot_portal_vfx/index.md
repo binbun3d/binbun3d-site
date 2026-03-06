@@ -6,11 +6,11 @@ tags = ["godot", "vfx", "3D",  "asset"]
 summary = "Portal effects for Godot 4"
 heroStyle = "big"
 +++
-{{< button href="https://binbun3d.itch.io/godot-portal-vfx/purchase" target="_self" >}}
+{{< button href="https://binbun3d.itch.io/godot-portal-vfx" target="_self" >}}
 Get Effects Here
 {{< /button >}}
 
-Feed your need for portals in Godot 4.x with [***this portal pack***](https://binbun3d.itch.io/godot-portal-vfx/purchase)! A window to another world right in your hands.
+Feed your need for portals in Godot 4.x with [***this portal pack***](https://binbun3d.itch.io/godot-portal-vfx)! A window to another world right in your hands.
 
 ## Features
 - Parallax effect giving depth.

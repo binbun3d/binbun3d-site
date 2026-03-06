@@ -6,7 +6,7 @@ tags = ["godot", "vfx", "3D", "asset"]
 summary = "Poison effects for Godot 4"
 heroStyle = "big"
 +++
-{{< button href="https://binbun3d.itch.io/poison-vfx/purchase" target="_self" >}}
+{{< button href="https://binbun3d.itch.io/poison-vfx" target="_self" >}}
 Get Effects Here
 {{< /button >}}
 

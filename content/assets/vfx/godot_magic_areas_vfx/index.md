@@ -6,11 +6,11 @@ tags = ["godot", "vfx", "3D",  "asset"]
 summary = "Magic area effects for Godot 4"
 heroStyle = "big"
 +++
-{{< button href="https://binbun3d.itch.io/magic-area-vfx/purchase" target="_self" >}}
+{{< button href="https://binbun3d.itch.io/magic-area-vfx" target="_self" >}}
 Get Effects Here
 {{< /button >}}
 
-Bring magical glow to your Godot 4.x projects. [These 30 effects](https://binbun3d.itch.io/magic-area-vfx/purchase) are perfect for magical attacks, spells, item pickups and whatever you come up with!
+Bring magical glow to your Godot 4.x projects. [These 30 effects](https://binbun3d.itch.io/magic-area-vfx) are perfect for magical attacks, spells, item pickups and whatever you come up with!
 
 ## Included
 - 5 Small Area Effects
