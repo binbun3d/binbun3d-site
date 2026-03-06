@@ -1,6 +1,6 @@
 +++
 date = '2026-03-05T14:48:47+02:00'
-draft = true
+draft = false
 title = 'Godot 2D Blur Shader | Tutorial'
 tags = ["godot", "shader", "tutorial"]
 summary = "A simple and performant blur shader for Godot 4"
