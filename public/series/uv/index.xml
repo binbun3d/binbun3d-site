@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorials on Binbun3D</title>
-    <link>http://localhost:1313/tutorials/</link>
-    <description>Recent content in Tutorials on Binbun3D</description>
+    <title>UV on Binbun3D</title>
+    <link>http://localhost:1313/series/uv/</link>
+    <description>Recent content in UV on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Sat, 07 Mar 2026 00:04:39 +0200</lastBuildDate><atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Mar 2026 00:04:39 +0200</lastBuildDate><atom:link href="http://localhost:1313/series/uv/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Basics of UVs and Coordinates in Godot Shaders | Tutorial</title>
@@ -19,16 +19,6 @@
       <guid>http://localhost:1313/tutorials/uv/godot_uv_basics/</guid>
       <description>A guide about the basics of UVs and Coordinates in Godot Shaders</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/uv/godot_uv_basics/feature.png" />
-    </item>
-    
-    <item>
-      <title>Godot 2D Blur Shader | Tutorial</title>
-      <link>http://localhost:1313/tutorials/misc/godot_blur_shader/</link>
-      <pubDate>Thu, 05 Mar 2026 14:48:47 +0200</pubDate>
-      <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>http://localhost:1313/tutorials/misc/godot_blur_shader/</guid>
-      <description>A simple and performant blur shader for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/misc/godot_blur_shader/feature.png" />
     </item>
     
   </channel>
