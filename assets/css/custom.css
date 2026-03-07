@@ -30,3 +30,11 @@ p a {
 p a:hover {
   color: #00ffff;
 }
+
+article details.mt-2 * {
+  background: #004467;
+}
+
+article details.mt-2 a:hover {
+  color: white;
+}

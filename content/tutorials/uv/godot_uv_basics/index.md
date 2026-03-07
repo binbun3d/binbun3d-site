@@ -1,6 +1,6 @@
 +++
 date = '2026-03-07T00:04:39+02:00'
-draft = true
+draft = false
 title = 'Basics of UVs and Coordinates in Godot Shaders | Tutorial'
 tags = ["godot", "shader", "tutorial"]
 summary = "A guide about the basics of UVs and Coordinates in Godot Shaders"

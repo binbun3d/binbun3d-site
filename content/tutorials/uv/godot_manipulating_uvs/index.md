@@ -1,6 +1,6 @@
 +++
 date = '2026-03-07T13:50:28+02:00'
-draft = true
+draft = false
 title = 'Moving Scaling and Rotating UVs in Godot Shaders | Tutorial'
 tags = ["godot", "shader", "tutorial"]
 summary = "A guide to moving, scaling and rotating UVs in Godot shaders"
@@ -115,6 +115,7 @@ void fragment() {
 ![uv_offset_modulo](uv_offset_modulo.png)
 
 ---
+> [!WARNING] Check out my [itch.io](https://binbun3d.itch.io/) for vfx stuff and cool shaders or else I'll ***scale*** you I guess
 
 ## Scaling
 Like with moving we can scale our `UV` value. You can do that with multiplication.
