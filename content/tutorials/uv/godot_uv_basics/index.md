@@ -153,6 +153,8 @@ void fragment() {
 }
 ```
 
+>[!IMPORTANT] Remember to assign the texture in your **ShaderMaterial**, I used the Godot logo
+
 ![texture_uv](texture_uv.png)
 
 Important part here is `texture(our_texture, UV)`. What it does is sample our given texture at the given UV coordinate.
@@ -181,4 +183,4 @@ while our node really covers just a part of that
 ---
 
 ## What next
-In the next part we'll cover some ways to manipulate UV's to your liking. Things like scaling, rotating and such
+In the [next part](../godot_manipulating_uvs/) we'll cover some ways to manipulate UV's to your liking. Things like scaling, rotating and such.
