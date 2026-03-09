@@ -13,12 +13,12 @@
     
     <item>
       <title>Godot Toon Shading | Tutorial</title>
-      <link>http://localhost:1313/tutorials/npr/godot-toon-shading/</link>
+      <link>http://localhost:1313/tutorials/shading/godot-toon-shading/</link>
       <pubDate>Mon, 09 Mar 2026 08:00:40 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>http://localhost:1313/tutorials/npr/godot-toon-shading/</guid>
+      <guid>http://localhost:1313/tutorials/shading/godot-toon-shading/</guid>
       <description>A guide for achieving nice toon shading in Godot 4</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/shading/godot-toon-shading/feature.png" />
     </item>
     
     <item>

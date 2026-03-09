@@ -251,7 +251,7 @@
     "keywords": ["godot","tutorial","shader","light"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "177"
+    "wordCount": "713"
   }]
   </script>
 
@@ -801,7 +801,17 @@
   <ul>
     <li><a href="#what-is-toon-shading">What is toon shading</a></li>
     <li><a href="#simple-method">Simple Method</a></li>
-    <li><a href="#custom-shader">Custom Shader</a></li>
+    <li><a href="#custom-shader">Custom Shader</a>
+      <ul>
+        <li><a href="#the-light-function">The <code>light()</code> function</a></li>
+        <li><a href="#hard-shadows">Hard Shadows</a>
+          <ul>
+            <li><a href="#multiple-steps">Multiple Steps</a></li>
+          </ul>
+        </li>
+        <li><a href="#rim-light">Rim light</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -817,7 +827,17 @@
   <ul>
     <li><a href="#what-is-toon-shading">What is toon shading</a></li>
     <li><a href="#simple-method">Simple Method</a></li>
-    <li><a href="#custom-shader">Custom Shader</a></li>
+    <li><a href="#custom-shader">Custom Shader</a>
+      <ul>
+        <li><a href="#the-light-function">The <code>light()</code> function</a></li>
+        <li><a href="#hard-shadows">Hard Shadows</a>
+          <ul>
+            <li><a href="#multiple-steps">Multiple Steps</a></li>
+          </ul>
+        </li>
+        <li><a href="#rim-light">Rim light</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -987,6 +1007,18 @@ It&rsquo;s also known as cel shading.</p>
 <li>Drag the <strong>Roughness</strong> of the material to <code>0.0</code></li>
 <li><strong>(Optional)</strong>: Enable <strong>Rim &gt; Enabled</strong></li>
 </ol>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="standard_toon"
+    width="836"
+    height="359"
+    src="/tutorials/npr/godot-toon-shading/standard_toon_hu_721a05718eb5d3c1.png"
+    srcset="/tutorials/npr/godot-toon-shading/standard_toon_hu_721a05718eb5d3c1.png 800w, /tutorials/npr/godot-toon-shading/standard_toon.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/tutorials/npr/godot-toon-shading/standard_toon.png"></figure>
 <p>Easy as that. A great benefit for this is you can use all the other things that come with <strong>StandardMaterial3D</strong>.</p>
 
 <h2 class="relative group">Custom Shader
@@ -998,7 +1030,182 @@ It&rsquo;s also known as cel shading.</p>
     </span>
     
 </h2>
-<p>We want full control of our toon shader.</p>
+<p>Of course we want full control, so we&rsquo;ll go ahead and build our very own toon shader!
+But before we get to the good stuff we can add some color to our material.</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-GLSL" data-lang="GLSL"><span class="line"><span class="cl"><span class="n">shader_type</span> <span class="n">spatial</span><span class="p">;</span> <span class="c1">// Since this is a 3D shader, it&#39;ll be spatial</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">uniform</span> <span class="k">vec3</span> <span class="n">albedo</span> <span class="o">:</span> <span class="n">source_color</span><span class="p">;</span> <span class="c1">// We can set this in the editor</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">void</span> <span class="n">fragment</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ALBEDO</span> <span class="o">=</span> <span class="n">albedo</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">void</span> <span class="n">light</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// This is what we&#39;ll be focusing on from now</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
+
+<h3 class="relative group">The <code>light()</code> function
+    <div id="the-light-function" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-light-function" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>As a first example, instead of jumping directly to the toon shader, we&rsquo;ll start with <a href="https://en.wikipedia.org/wiki/Lambertian_reflectance"  target="_blank" rel="noreferrer">lambertian lighting</a>.
+You can read more about it from the link, but for our purposes it&rsquo;s pretty much just <strong>matte lighting without highlights</strong></p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-GLSL" data-lang="GLSL"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">light</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">DIFFUSE_LIGHT</span> <span class="o">+=</span> <span class="n">max</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">NORMAL</span><span class="p">,</span> <span class="n">LIGHT</span><span class="p">),</span> <span class="mf">0.0</span><span class="p">)</span> <span class="o">*</span> <span class="n">ATTENUATION</span> <span class="o">*</span> <span class="n">LIGHT_COLOR</span> <span class="o">/</span> <span class="n">PI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="lambertian"
+    width="924"
+    height="371"
+    src="/tutorials/npr/godot-toon-shading/lambertian_hu_c32eb4f89ea0d3a6.png"
+    srcset="/tutorials/npr/godot-toon-shading/lambertian_hu_c32eb4f89ea0d3a6.png 800w, /tutorials/npr/godot-toon-shading/lambertian.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/tutorials/npr/godot-toon-shading/lambertian.png"></figure>
+<p>There&rsquo;s a lot happening here so let&rsquo;s break it down:</p>
+<ul>
+<li><code>dot(NORMAL, LIGHT)</code> is the <strong>core</strong> of our whole lighting
+<ul>
+<li><code>NORMAL</code> is the <strong>direction of the surface</strong>, <code>LIGHT</code> is the <strong>direction of the light</strong></li>
+<li>By using <code>dot()</code> we&rsquo;re calculating the <strong>angle</strong> between <code>NORMAL</code> and <code>LIGHT</code> (<a href="https://en.wikipedia.org/wiki/Dot_product"  target="_blank" rel="noreferrer">the dot product</a>).</li>
+<li>So when the light points towards the surface, the angle between the surface and the light is 180 degrees (which is PI in radians, <strong>that&rsquo;s why we divide by <code>PI</code> later</strong>),
+which means the more the light points towards the surface, the higher the value</li>
+</ul>
+</li>
+<li><code>max(dot(NORMAL, LIGHT), 0.0)</code> simply means we choose which value is higher, so in practice it means our <strong>light value can never be less than 0.0</strong></li>
+<li><code>ATTENUATION</code> represents how much the intensity of the light is reduced due to things like <strong>distance</strong> from the light source and <strong>shadows from other objects</strong>.</li>
+<li><code>LIGHT_COLOR</code> is pretty self explanatory. Colored lights wouldn&rsquo;t work without it</li>
+</ul>
+<p>The reason we add onto <code>DIFFUSE_LIGHT</code> is because the <code>light()</code> function runs <strong>per-pixel</strong> <em><strong>per-light</strong></em>, so if we just set it to our value
+we&rsquo;d override all the previously processed lights.</p>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="ndotl"
+    width="981"
+    height="360"
+    src="/tutorials/npr/godot-toon-shading/ndotl_hu_fb744d9b410fa524.png"
+    srcset="/tutorials/npr/godot-toon-shading/ndotl_hu_fb744d9b410fa524.png 800w, /tutorials/npr/godot-toon-shading/ndotl.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/tutorials/npr/godot-toon-shading/ndotl.png"></figure>
+
+<h3 class="relative group">Hard Shadows
+    <div id="hard-shadows" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hard-shadows" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>For clarity, we&rsquo;ll break down our previous <code>light()</code> into multiple lines so we can work with individual values.
+Then we can use the <code>step()</code> function to get a hard edge for the shading.</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-GLSL" data-lang="GLSL"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">light</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">float</span> <span class="n">light</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">NORMAL</span><span class="p">,</span> <span class="n">LIGHT</span><span class="p">),</span> <span class="mf">0.0</span><span class="p">)</span> <span class="o">*</span> <span class="n">ATTENUATION</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="n">light</span> <span class="o">=</span> <span class="n">step</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">light</span><span class="p">);</span> <span class="c1">// Here</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="k">vec3</span> <span class="n">diffuse</span> <span class="o">=</span> <span class="k">vec3</span><span class="p">(</span><span class="n">light</span><span class="p">)</span> <span class="o">*</span> <span class="n">LIGHT_COLOR</span> <span class="o">/</span> <span class="n">PI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="n">DIFFUSE_LIGHT</span> <span class="o">+=</span> <span class="n">diffuse</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="stepped_light"
+    width="751"
+    height="319"
+    src="/tutorials/npr/godot-toon-shading/stepped_light.png"
+    srcset="/tutorials/npr/godot-toon-shading/stepped_light.png 800w, /tutorials/npr/godot-toon-shading/stepped_light.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/tutorials/npr/godot-toon-shading/stepped_light.png"></figure>
+
+<h4 class="relative group">Multiple Steps
+    <div id="multiple-steps" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#multiple-steps" aria-label="Anchor">#</a>
+    </span>
+    
+</h4>
+<p>We can go even further and instead of using <code>step()</code> we can:</p>
+<ol>
+<li><strong>Multiply</strong> our <code>light</code> by the amount of steps we want it to have.</li>
+<li><strong>Round</strong> the value.</li>
+<li><strong>Divide</strong> it with the amount of steps to scale the value back.</li>
+</ol>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-GLSL" data-lang="GLSL"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">light</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">float</span> <span class="n">light</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">NORMAL</span><span class="p">,</span> <span class="n">LIGHT</span><span class="p">),</span> <span class="mf">0.0</span><span class="p">)</span> <span class="o">*</span> <span class="n">ATTENUATION</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="n">light</span> <span class="o">=</span> <span class="n">round</span><span class="p">(</span><span class="n">light</span> <span class="o">*</span> <span class="mf">4.0</span><span class="p">)</span> <span class="o">/</span> <span class="mf">4.0</span><span class="p">;</span> <span class="c1">// Here</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="k">vec3</span> <span class="n">diffuse</span> <span class="o">=</span> <span class="k">vec3</span><span class="p">(</span><span class="n">light</span><span class="p">)</span> <span class="o">*</span> <span class="n">LIGHT_COLOR</span> <span class="o">/</span> <span class="n">PI</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="n">DIFFUSE_LIGHT</span> <span class="o">+=</span> <span class="n">diffuse</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="multi_stepped_light"
+    width="788"
+    height="344"
+    src="/tutorials/npr/godot-toon-shading/multi_stepped_light.png"
+    srcset="/tutorials/npr/godot-toon-shading/multi_stepped_light.png 800w, /tutorials/npr/godot-toon-shading/multi_stepped_light.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/tutorials/npr/godot-toon-shading/multi_stepped_light.png"></figure>
+
+<h3 class="relative group">Rim light
+    <div id="rim-light" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#rim-light" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>For rim light we can use the fresnel effect. We&rsquo;ll write a seperate function for it:</p>
+<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-GLSL" data-lang="GLSL"><span class="line"><span class="cl"><span class="k">float</span> <span class="n">fresnel</span><span class="p">(</span><span class="k">vec3</span> <span class="n">normal</span><span class="p">,</span> <span class="k">vec3</span> <span class="n">view</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mf">1.0</span> <span class="o">-</span> <span class="n">clamp</span><span class="p">(</span><span class="n">dot</span><span class="p">(</span><span class="n">normalize</span><span class="p">(</span><span class="n">normal</span><span class="p">),</span> <span class="n">normalize</span><span class="p">(</span><span class="n">view</span><span class="p">)),</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div></div>
+<ul>
+<li>Again we use <code>dot()</code>, but this time to find the angle between the view direction and the surface <code>NORMAL</code>
+<ul>
+<li>So when the surface points directly to us, the value is higher.</li>
+</ul>
+</li>
+<li>Then we invert it by subtracting it from <strong>1.0</strong>
+<ul>
+<li>So when the surface points directly to us, the value is <strong>0.0</strong></li>
+</ul>
+</li>
+</ul>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="fresnel"
+    width="823"
+    height="362"
+    src="/tutorials/npr/godot-toon-shading/fresnel_hu_7ae57458268fc7bb.png"
+    srcset="/tutorials/npr/godot-toon-shading/fresnel_hu_7ae57458268fc7bb.png 800w, /tutorials/npr/godot-toon-shading/fresnel.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/tutorials/npr/godot-toon-shading/fresnel.png"></figure>
 
           
           
