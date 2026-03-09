@@ -1,6 +1,6 @@
 +++
 date = '2026-03-09T08:00:40+02:00'
-draft = true
+draft = false
 title = 'Godot Toon Shading | Tutorial'
 tags = ["godot", "tutorial", "shader", "toon"]
 summary = "A guide for achieving nice toon shading in Godot 4"

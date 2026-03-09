@@ -3,109 +3,109 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://bun3d.com/</loc>
     <lastmod>2026-03-09T08:00:40+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tutorials/shading/godot-toon-shading/</loc>
+    <loc>https://bun3d.com/tutorials/shading/godot-toon-shading/</loc>
     <lastmod>2026-03-09T08:00:40+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tutorials/</loc>
+    <loc>https://bun3d.com/tutorials/</loc>
     <lastmod>2026-03-09T08:00:40+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tutorials/uv/godot_generating_shapes/</loc>
+    <loc>https://bun3d.com/tutorials/uv/godot_generating_shapes/</loc>
     <lastmod>2026-03-07T17:58:24+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tutorials/uv/godot_manipulating_uvs/</loc>
+    <loc>https://bun3d.com/tutorials/uv/godot_manipulating_uvs/</loc>
     <lastmod>2026-03-07T13:50:28+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tutorials/uv/godot_uv_basics/</loc>
+    <loc>https://bun3d.com/tutorials/uv/godot_uv_basics/</loc>
     <lastmod>2026-03-07T00:04:39+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/</loc>
+    <loc>https://bun3d.com/assets/</loc>
     <lastmod>2026-03-06T11:36:01+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_magic_projectiles_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_magic_projectiles_vfx/</loc>
     <lastmod>2026-03-06T11:36:01+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_fire_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_fire_vfx/</loc>
     <lastmod>2026-03-06T11:31:29+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_smoke_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_smoke_vfx/</loc>
     <lastmod>2026-03-06T11:26:23+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_muzzle_flash_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_muzzle_flash_vfx/</loc>
     <lastmod>2026-03-06T11:21:15+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_impact_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_impact_vfx/</loc>
     <lastmod>2026-03-06T11:15:05+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_poison_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_poison_vfx/</loc>
     <lastmod>2026-03-06T11:07:44+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_ice_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_ice_vfx/</loc>
     <lastmod>2026-03-06T10:48:48+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_magic_areas_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_magic_areas_vfx/</loc>
     <lastmod>2026-03-06T10:48:48+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_magic_orbs_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_magic_orbs_vfx/</loc>
     <lastmod>2026-03-06T10:40:54+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/assets/vfx/godot_portal_vfx/</loc>
+    <loc>https://bun3d.com/assets/vfx/godot_portal_vfx/</loc>
     <lastmod>2026-03-06T09:11:36+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/tutorials/misc/godot_blur_shader/</loc>
+    <loc>https://bun3d.com/tutorials/misc/godot_blur_shader/</loc>
     <lastmod>2026-03-05T14:48:47+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
