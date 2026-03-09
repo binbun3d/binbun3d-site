@@ -2,113 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vfx on Binbun3D</title>
-    <link>https://bun3d.com/tags/vfx/</link>
+    <link>http://localhost:1313/tags/vfx/</link>
     <description>Recent content in Vfx on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Fri, 06 Mar 2026 11:36:01 +0200</lastBuildDate><atom:link href="https://bun3d.com/tags/vfx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 11:36:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/vfx/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Godot Magic Projectiles VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_magic_projectiles_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_magic_projectiles_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:36:01 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_magic_projectiles_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_magic_projectiles_vfx/</guid>
       <description>Magic projectile effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_magic_projectiles_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_magic_projectiles_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Fire VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_fire_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_fire_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:31:29 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_fire_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_fire_vfx/</guid>
       <description>Fire effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_fire_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_fire_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Dynamic Smoke VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_smoke_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_smoke_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:26:23 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_smoke_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_smoke_vfx/</guid>
       <description>Dynamic smoke effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_smoke_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_smoke_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Muzzle Flash VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_muzzle_flash_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_muzzle_flash_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:21:15 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_muzzle_flash_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_muzzle_flash_vfx/</guid>
       <description>Muzzle flash effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_muzzle_flash_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_muzzle_flash_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Impact VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_impact_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_impact_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:15:05 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_impact_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_impact_vfx/</guid>
       <description>Impact effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_impact_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_impact_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Poison VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_poison_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_poison_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 11:07:44 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_poison_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_poison_vfx/</guid>
       <description>Poison effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_poison_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_poison_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Ice VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_ice_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_ice_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 10:48:48 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_ice_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_ice_vfx/</guid>
       <description>Ice effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_ice_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_ice_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Magic Areas VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_magic_areas_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_magic_areas_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 10:48:48 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_magic_areas_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_magic_areas_vfx/</guid>
       <description>Magic area effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_magic_areas_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_magic_areas_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Magic Orbs VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_magic_orbs_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_magic_orbs_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 10:40:54 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_magic_orbs_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_magic_orbs_vfx/</guid>
       <description>Magic orb effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_magic_orbs_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_magic_orbs_vfx/feature.png" />
     </item>
     
     <item>
       <title>Godot Portal VFX | Asset Pack</title>
-      <link>https://bun3d.com/assets/vfx/godot_portal_vfx/</link>
+      <link>http://localhost:1313/assets/vfx/godot_portal_vfx/</link>
       <pubDate>Fri, 06 Mar 2026 09:11:36 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/assets/vfx/godot_portal_vfx/</guid>
+      <guid>http://localhost:1313/assets/vfx/godot_portal_vfx/</guid>
       <description>Portal effects for Godot 4</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_portal_vfx/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_portal_vfx/feature.png" />
     </item>
     
   </channel>

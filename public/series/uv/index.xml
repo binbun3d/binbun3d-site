@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UV on Binbun3D</title>
-    <link>https://bun3d.com/series/uv/</link>
+    <link>http://localhost:1313/series/uv/</link>
     <description>Recent content in UV on Binbun3D</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Sat, 07 Mar 2026 17:58:24 +0200</lastBuildDate><atom:link href="https://bun3d.com/series/uv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Mar 2026 17:58:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/series/uv/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Generating Shapes Using UV in Godot Shaders | Tutorial</title>
-      <link>https://bun3d.com/tutorials/uv/godot_generating_shapes/</link>
+      <link>http://localhost:1313/tutorials/uv/godot_generating_shapes/</link>
       <pubDate>Sat, 07 Mar 2026 17:58:24 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/tutorials/uv/godot_generating_shapes/</guid>
+      <guid>http://localhost:1313/tutorials/uv/godot_generating_shapes/</guid>
       <description>A guide about generating simple shapes in Godot Shaders</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/uv/godot_generating_shapes/feature.png" />
     </item>
     
     <item>
       <title>Moving Scaling and Rotating UVs in Godot Shaders | Tutorial</title>
-      <link>https://bun3d.com/tutorials/uv/godot_manipulating_uvs/</link>
+      <link>http://localhost:1313/tutorials/uv/godot_manipulating_uvs/</link>
       <pubDate>Sat, 07 Mar 2026 13:50:28 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/tutorials/uv/godot_manipulating_uvs/</guid>
+      <guid>http://localhost:1313/tutorials/uv/godot_manipulating_uvs/</guid>
       <description>A guide to moving, scaling and rotating UVs in Godot shaders</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/tutorials/uv/godot_manipulating_uvs/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/uv/godot_manipulating_uvs/feature.png" />
     </item>
     
     <item>
       <title>Basics of UVs and Coordinates in Godot Shaders | Tutorial</title>
-      <link>https://bun3d.com/tutorials/uv/godot_uv_basics/</link>
+      <link>http://localhost:1313/tutorials/uv/godot_uv_basics/</link>
       <pubDate>Sat, 07 Mar 2026 00:04:39 +0200</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
-      <guid>https://bun3d.com/tutorials/uv/godot_uv_basics/</guid>
+      <guid>http://localhost:1313/tutorials/uv/godot_uv_basics/</guid>
       <description>A guide about the basics of UVs and Coordinates in Godot Shaders</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/tutorials/uv/godot_uv_basics/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/tutorials/uv/godot_uv_basics/feature.png" />
     </item>
     
   </channel>

@@ -9,7 +9,17 @@
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Sat, 07 Mar 2026 17:58:24 +0200</lastBuildDate><atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Mar 2026 08:00:40 +0200</lastBuildDate><atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Godot Toon Shading | Tutorial</title>
+      <link>http://localhost:1313/tutorials/npr/godot-toon-shading/</link>
+      <pubDate>Mon, 09 Mar 2026 08:00:40 +0200</pubDate>
+      <author>bin@bun3d.com (Binbun3D)</author>
+      <guid>http://localhost:1313/tutorials/npr/godot-toon-shading/</guid>
+      <description>A guide for achieving nice toon shading in Godot 4</description>
+      
+    </item>
     
     <item>
       <title>Generating Shapes Using UV in Godot Shaders | Tutorial</title>
