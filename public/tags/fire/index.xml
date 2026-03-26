@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fire on Binbun3D</title>
+    <link>http://localhost:1313/tags/fire/</link>
+    <description>Recent content in Fire on Binbun3D</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
+    <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
+    <copyright>© 2026 Binbun3D</copyright>
+    <lastBuildDate>Thu, 26 Mar 2026 18:17:41 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/fire/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stylized Flame FX | Godot Effects</title>
+      <link>http://localhost:1313/assets/vfx/godot_flame_fx/</link>
+      <pubDate>Thu, 26 Mar 2026 18:17:41 +0200</pubDate>
+      <author>bin@bun3d.com (Binbun3D)</author>
+      <guid>http://localhost:1313/assets/vfx/godot_flame_fx/</guid>
+      <description>Flaming effects and their documentation for Godot 4</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_flame_fx/feature.png" />
+    </item>
+    
+  </channel>
+</rss>
