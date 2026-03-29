@@ -59,7 +59,9 @@ Tips for performance:
 - **Multiple unique materials can be bad**. If you have a house for example, try using the same glass material for
 all the windows!
 - **More blur = less performance**. Luckily the effect doesn't even look that good when blurred too much.
-- **Don't worry too much**. I doubt the players computer will explode from using a glass shader. Far from it!
+
+> [!TIP] Don't worry too much about performance
+> Most likely you won't run into much issues with these. Just make the game! I believe in you
 
 ### Changing shaders from code 
 
