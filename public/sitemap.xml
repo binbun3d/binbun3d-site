@@ -4,13 +4,25 @@
 
   <url>
     <loc>http://localhost:1313/assets/</loc>
-    <lastmod>2026-03-26T18:17:41+02:00</lastmod>
+    <lastmod>2026-03-29T10:57:51+03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-26T18:17:41+02:00</lastmod>
+    <lastmod>2026-03-29T10:57:51+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/assets/vfx/godot_frosted_glass/</loc>
+    <lastmod>2026-03-29T10:57:51+03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/assets/vfx/godot_hit_fx/</loc>
+    <lastmod>2026-03-27T11:25:52+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

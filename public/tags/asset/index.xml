@@ -9,7 +9,27 @@
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Thu, 26 Mar 2026 18:17:41 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/asset/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Mar 2026 10:57:51 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/asset/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Godot_frosted_glass | Asset Pack</title>
+      <link>http://localhost:1313/assets/vfx/godot_frosted_glass/</link>
+      <pubDate>Sun, 29 Mar 2026 10:57:51 +0300</pubDate>
+      <author>bin@bun3d.com (Binbun3D)</author>
+      <guid>http://localhost:1313/assets/vfx/godot_frosted_glass/</guid>
+      <description>Effects for Godot 4</description>
+      
+    </item>
+    
+    <item>
+      <title>Stylized Hit FX | Godot Effects</title>
+      <link>http://localhost:1313/assets/vfx/godot_hit_fx/</link>
+      <pubDate>Fri, 27 Mar 2026 11:25:52 +0200</pubDate>
+      <author>bin@bun3d.com (Binbun3D)</author>
+      <guid>http://localhost:1313/assets/vfx/godot_hit_fx/</guid>
+      <description>Hit and impact effects and their documentation for Godot 4</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_hit_fx/feature.png" />
+    </item>
     
     <item>
       <title>Stylized Flame FX | Godot Effects</title>

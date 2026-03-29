@@ -192,4 +192,4 @@ Nope, but it's always appreciated!
 
 ### I want my game showcased by Binbun3D!!!!!
 
-Hey that's not a question... It's a demand. Well lucky you I'd love to showcase games that use my assets! Send me a message on my socials.
+Hey that's not a question... It's a demand. Well lucky you I'd love to showcase games that use my assets! Send me a message on my socials and I'll see what I can do!

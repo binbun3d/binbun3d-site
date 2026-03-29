@@ -157,4 +157,4 @@ No, but you can show support by mentioning me. It's always appreciated!
 
 ### I want my game showcased by Binbun3D!!!!!
 
-You can send me a link to your itch page on my socials and I can include it in the "Games using my assets" section on my itch.io page!
+You can send me a link to your itch page on my socials and I'll see if I can include it in the "Games using my assets" section on my itch.io page!
