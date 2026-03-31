@@ -12,13 +12,13 @@
     <lastBuildDate>Sun, 29 Mar 2026 10:57:51 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/vfx/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Godot_frosted_glass | Asset Pack</title>
+      <title>Frosted Glass | Godot Shader</title>
       <link>http://localhost:1313/assets/vfx/godot_frosted_glass/</link>
       <pubDate>Sun, 29 Mar 2026 10:57:51 +0300</pubDate>
       <author>bin@bun3d.com (Binbun3D)</author>
       <guid>http://localhost:1313/assets/vfx/godot_frosted_glass/</guid>
-      <description>Effects for Godot 4</description>
-      
+      <description>Frosted glass effects for Godot 4</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/assets/vfx/godot_frosted_glass/feature.png" />
     </item>
     
     <item>
