@@ -9,7 +9,17 @@
     <managingEditor>bin@bun3d.com (Binbun3D)</managingEditor>
     <webMaster>bin@bun3d.com (Binbun3D)</webMaster>
     <copyright>© 2026 Binbun3D</copyright>
-    <lastBuildDate>Mon, 09 Mar 2026 08:00:40 +0200</lastBuildDate><atom:link href="https://bun3d.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2026 11:25:52 +0200</lastBuildDate><atom:link href="https://bun3d.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stylized Hit FX | Godot Effects</title>
+      <link>https://bun3d.com/assets/vfx/godot_hit_fx/</link>
+      <pubDate>Fri, 27 Mar 2026 11:25:52 +0200</pubDate>
+      <author>bin@bun3d.com (Binbun3D)</author>
+      <guid>https://bun3d.com/assets/vfx/godot_hit_fx/</guid>
+      <description>Hit and impact effects and their documentation for Godot 4</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://bun3d.com/assets/vfx/godot_hit_fx/feature.png" />
+    </item>
     
     <item>
       <title>Godot Toon Shading | Tutorial</title>

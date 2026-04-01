@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://bun3d.com/assets/</loc>
+    <lastmod>2026-03-27T11:25:52+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://bun3d.com/</loc>
-    <lastmod>2026-03-09T08:00:40+02:00</lastmod>
+    <lastmod>2026-03-27T11:25:52+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bun3d.com/assets/vfx/godot_hit_fx/</loc>
+    <lastmod>2026-03-27T11:25:52+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -41,11 +53,6 @@
   <url>
     <loc>https://bun3d.com/tutorials/misc/godot_blur_shader/</loc>
     <lastmod>2026-03-05T14:48:47+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bun3d.com/assets/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
