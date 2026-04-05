@@ -1,6 +1,6 @@
 +++
 date = '2026-03-26T18:17:41+02:00'
-draft = true
+draft = false
 title = 'Stylized Flame FX | Godot Effects'
 tags = ["godot", "vfx", "asset", "fire"]
 summary = "Flaming effects and their documentation for Godot 4"
